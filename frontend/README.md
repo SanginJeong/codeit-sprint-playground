@@ -1,12 +1,34 @@
-# React + Vite
+# Codeit-Sprint-Playground
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 프로젝트 기간
+2025-07-03 ~
 
-Currently, two official plugins are available:
+## 프로젝트 목적
+스프린트 수료 후에 더 강해진 나를 위해서 기록하기 위한 공간제작
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 기능
+- 회원가입
+- 로그인
+- 파트1, 파트2, 파트3, 파트4
+- 파트별 멤버, 기간 볼수 있다.
+- 기간을 클릭하면 등록된 글들이 나온다.
+- 글들을 클릭하면 해당 글 페이지로 이동한다.
+- 유저의 편의성을 위해 사이드바에서 이전, 홈으로 이동 기능을 제공한다.
 
-## Expanding the ESLint configuration
+## 사용
+### frontend
+- react
+- tanstack-query
+- tailwind
+- axios
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### backend
+- mongoose, express
+
+#### model
+
+#### routing
+
+## 개발일지
+
+## 결과물
