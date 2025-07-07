@@ -1,13 +1,5 @@
 @import "tailwindcss";
 
-html,body {
-  height: 100vh;
-}
-
-#root {
-  height: 100%;
-}
-
 @layer components {
   .click-style {
     @apply cursor-pointer hover:bg-purple-600 hover:text-white transition

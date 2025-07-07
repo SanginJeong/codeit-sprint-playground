@@ -5,11 +5,11 @@ import Sidebar from '../common/Sidebar'
 const AppLayout = () => {
   return (
     <>
-      <div className='flex'>
-        <div className='flex-1'>
+      <div className='flex h-[100vh]'>
+        <div className='flex-1 h-full'>
           <Sidebar/>
         </div>
-        <div className='flex-5'>
+        <div className='flex-5 h-full'>
           <Outlet/>
         </div>
       </div>
